@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonFilter;
 //@JsonIgnoreProperties("field1")
 @JsonFilter("SomeBeanFilter")
 public class SomeBean {
-	private String field1;
+	private String field1; 
 	// @JsonIgnore
 	private String field2;
 	private String field3;
